@@ -20,7 +20,7 @@ type ProtectedResourceMetadata struct {
 	// REQUIRED. The protected resource's resource identifier (a URL using the https scheme).
 	Resource string `json:"resource"`
 
-	// OPTIONAL. Array containing a list of OAuth authorization server issuer identifiers.
+	// REQUIRED. Array containing a list of OAuth authorization server issuer identifiers.
 	AuthorizationServers []string `json:"authorization_servers,omitempty"`
 
 	// OPTIONAL. URL of the protected resource's JSON Web Key (JWK) Set document.
