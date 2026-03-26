@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.0.0](https://github.com/googleapis/genai-toolbox/compare/v0.30.0...v1.0.0) (2026-03-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* v1 docsite ([#2831](https://github.com/googleapis/genai-toolbox/issues/2831))
+* **http:** sanitize non-2xx error output ([#2654](https://github.com/googleapis/genai-toolbox/issues/2654))
+* add a new `enable-api` flag ([#2846](https://github.com/googleapis/genai-toolbox/issues/2846))
+* removing deprecations and update tools-file flag ([#2806](https://github.com/googleapis/genai-toolbox/issues/2806))
+
+### Features
+
+* Add a new `enable-api` flag ([#2846](https://github.com/googleapis/genai-toolbox/issues/2846)) ([7a070da](https://github.com/googleapis/genai-toolbox/commit/7a070dae4f1833671649ea605f36659675d402a9))
+* Added java SDK docs ([#2675](https://github.com/googleapis/genai-toolbox/issues/2675)) ([8cf1c52](https://github.com/googleapis/genai-toolbox/commit/8cf1c52d67ac1a445c2943ba998780633a4a1ada))
+* **auth:** Add generic `authService` type for MCP ([#2619](https://github.com/googleapis/genai-toolbox/issues/2619)) ([f6678f8](https://github.com/googleapis/genai-toolbox/commit/f6678f8e29aa3346f4f73ce33cec37b4753d6947))
+* **dataplex:** Add support for lookup context tool. ([#2744](https://github.com/googleapis/genai-toolbox/issues/2744)) ([facb69d](https://github.com/googleapis/genai-toolbox/commit/facb69d01fe0c7ff9e2e1c40804dd00762e508a6))
+* **dataplex:** Improve dataplex params ([#2855](https://github.com/googleapis/genai-toolbox/issues/2855)) ([409a354](https://github.com/googleapis/genai-toolbox/commit/409a354d453eef52be947beb9c2548f50af1fa20))
+* **dataplex:** Refine dataplex tools for better agent usability ([409a354](https://github.com/googleapis/genai-toolbox/commit/409a354d453eef52be947beb9c2548f50af1fa20))
+* Removing deprecations and update tools-file flag ([#2806](https://github.com/googleapis/genai-toolbox/issues/2806)) ([ab64c95](https://github.com/googleapis/genai-toolbox/commit/ab64c9514a467d92a4547eda5a4ecdd08f86b0c9))
+
+
+### Bug Fixes
+
+* **docs:** Skip empty folders in pagination & reduce PR comment noise ([#2853](https://github.com/googleapis/genai-toolbox/issues/2853)) ([9ebd93a](https://github.com/googleapis/genai-toolbox/commit/9ebd93a8ecb9bae673aa77a859803629fc7a4e1d))
+* **http:** Sanitize non-2xx error output ([#2654](https://github.com/googleapis/genai-toolbox/issues/2654)) ([5bef954](https://github.com/googleapis/genai-toolbox/commit/5bef954507c8e23b6c9b0eb2551265e4be32b452))
+* **skills:** Fix integer parameter parsing through agent skills ([#2847](https://github.com/googleapis/genai-toolbox/issues/2847)) ([4564efe](https://github.com/googleapis/genai-toolbox/commit/4564efe75436b4081d9f3d1f7c912bc64c13f850))
+
+
+### Documentation
+
+* V1 docsite ([#2831](https://github.com/googleapis/genai-toolbox/issues/2831)) ([5b25ce0](https://github.com/googleapis/genai-toolbox/commit/5b25ce081235b21c884e27057cd4a2fa4d0d7c0e))
+
 ## [0.30.0](https://github.com/googleapis/genai-toolbox/compare/v0.29.0...v0.30.0) (2026-03-20)
 
 
